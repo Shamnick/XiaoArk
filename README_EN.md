@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="assets/social.png" width="100%" alt="XiaoArk"/>
+<br/>
+
+<img src="assets/icon.png" width="150" alt="XiaoArk"/>
+
+<br/>
+
+# XiaoArk · 小方舟
+
+**A tiny boat, sailing across the vast sea.** —— a full-protocol proxy client crafted for macOS
 
 <br/>
 
@@ -44,21 +52,11 @@
 
 <div align="center">
 
-<img src="assets/screenshots/dashboard.png" width="760" alt="XiaoArk Dashboard"/>
+<img src="assets/screenshots/dashboard.png" width="800" alt="XiaoArk Dashboard"/>
 
-**Dashboard** · real-time traffic, node latency and connection stats in one view
+**Dashboard** · running status, real-time speed, outbound mode, system proxy, memory, live connections and proxy groups — all in one view
 
-<br/>
-
-<img src="assets/screenshots/tray_states.png" width="560" alt="Tray States"/>
-
-**Menu-bar Tray** · sail up means connected, sail down means disconnected — no need to open the window
-
-<br/>
-
-<img src="assets/screenshots/dmg_install.png" width="560" alt="Installer"/>
-
-**Installer** · ocean-themed DMG — it looks like our own from the very first glance
+The status card hosts the start/pause control; switch Rule / Global / Direct with one click; the menu-bar tray shows connection state through the sail, no need to open the window.
 
 </div>
 

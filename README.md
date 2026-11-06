@@ -1,6 +1,14 @@
 <div align="center">
 
-<img src="assets/social.png" width="100%" alt="小方舟 XiaoArk"/>
+<br/>
+
+<img src="assets/icon.png" width="150" alt="小方舟 XiaoArk"/>
+
+<br/>
+
+# 小方舟 · XiaoArk
+
+**小小的船，渡大大的海。** —— 为 macOS 精心打磨的全协议网络代理客户端
 
 <br/>
 
@@ -44,21 +52,11 @@
 
 <div align="center">
 
-<img src="assets/screenshots/dashboard.png" width="760" alt="XiaoArk 仪表盘"/>
+<img src="assets/screenshots/dashboard.png" width="800" alt="XiaoArk 仪表盘"/>
 
-**仪表盘** · 实时流量、节点延迟、连接统计，一屏尽览
+**仪表盘** · 运行状态、实时速率、出站模式、系统代理、内存占用、实时连接、策略组——一屏尽览
 
-<br/>
-
-<img src="assets/screenshots/tray_states.png" width="560" alt="托盘双状态"/>
-
-**菜单栏托盘** · 帆升起即已连接，帆落下即已断开，无需点开窗口
-
-<br/>
-
-<img src="assets/screenshots/dmg_install.png" width="560" alt="安装界面"/>
-
-**安装界面** · 海洋主题 DMG，从第一眼就是自己的样子
+运行状态卡片中央是启动/暂停键；出站模式一键切换规则 / 全局 / 直连；菜单栏托盘以帆的起落提示连接状态，无需点开窗口。
 
 </div>
 
