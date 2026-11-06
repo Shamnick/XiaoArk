@@ -4,58 +4,50 @@
 
 # 小方舟 XiaoArk
 
-**载你出海，自由联通。**
+**小小的船，渡大大的海。**
 
-一款专属定制的网络代理客户端，基于开源项目 [FlClash](https://github.com/chen08209/FlClash) 深度品牌重塑。
+一款简洁、快速、自由的网络代理客户端。
 
 </div>
 
 ---
 
-## ✨ 简介
+## 🌊 关于小方舟
 
-小方舟（XiaoArk）是基于 FlClash 0.9.3 的个性化定制版本，由 **小小** 专属打造。在保留原版全部强大功能的基础上，完成了全方位的品牌重塑：
+小方舟（XiaoArk）是小小的个人作品。名字取自"小小的方舟"——在信息的海洋里，载着你稳稳地抵达任何想去的地方。
 
-- 🚢 **全新品牌**：FlClash → XiaoArk，应用名、Bundle ID、URL 协议（`xiaoark://`）全面更名
-- 🎨 **专属视觉**：深蓝星空 + 金色方舟主题图标，Dock、启动台、菜单栏托盘全套替换
-- 🔏 **独立签名**：重签名封装，与原版互不影响，配置完全独立
+图标以海的渐变色为基调：从浅滩的 turquoise 到深海的 blue，一笔扬起的风帆，一颗远航的坐标。
 
-## 📦 功能特性
+## ✨ 特性
 
-继承 FlClash 的全部能力：
+- 🚀 **多协议**：VMess / VLESS / Trojan / Shadowsocks / Hysteria2 等主流协议全覆盖
+- 🧭 **智能分流**：规则路由、TUN 全局模式，应用级精细控制
+- 🔗 **订阅友好**：一键导入订阅，兼容 `clash://` 与 `xiaoark://` 链接
+- 🎨 **现代界面**：简洁流畅的 Flutter 界面，深色浅色随心切换
+- 🛡 **独立配置**：配置目录独立，与任何同类软件互不干扰
 
-- 多协议支持：VMess / VLESS / Trojan / Shadowsocks / Hysteria 等
-- 基于 Clash Meta（mihomo）内核，规则分流、TUN 模式
-- 订阅管理、一键导入（兼容 `clash://` 订阅链接）
-- 多平台内核，简洁现代的 Flutter 界面
+## ⬇️ 下载
 
-## ⬇️ 下载安装
-
-前往 [Releases](../../releases) 页面下载最新版本：
+前往 [Releases](../../releases) 下载最新版本：
 
 | 平台 | 文件 |
 |---|---|
 | macOS (Intel) | `XiaoArk-0.9.3-macos-amd64.dmg` |
 
-下载后打开 DMG，将 **XiaoArk.app** 拖入 Applications 即可。
+打开 DMG，将 **XiaoArk.app** 拖入 Applications 即可启航。
 
 > 首次打开如遇安全提示：系统设置 → 隐私与安全性 → 仍要打开。
 
-## 🎨 品牌主题
+## 🎨 品牌
 
 | 元素 | 设计 |
 |---|---|
 | 名称 | 小方舟 / XiaoArk |
-| 主题色 | 深海军蓝 × 金色 |
-| 图标 | 星夜海浪上的金色小方舟 |
-| 寓意 | 载你出海远航，抵达任何彼岸 |
-
-## 🙏 致谢
-
-本项目基于 [FlClash](https://github.com/chen08209/FlClash) 构建，感谢原作者及所有贡献者。原项目遵循其开源许可证，本仓库仅作个人品牌化定制与分发。
+| 主题色 | 海洋渐变 ·  turquoise → deep sea blue |
+| 图标 | 白底圆角方块，一帆一点，极简远航 |
 
 ---
 
 <div align="center">
-Made with ❤️ by 小小
+Made with 🌊 by 小小
 </div>
