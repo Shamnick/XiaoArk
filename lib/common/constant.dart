@@ -172,7 +172,7 @@ const proxiesListStoreKey = PageStorageKey<String>('proxies_list');
 const toolsStoreKey = PageStorageKey<String>('tools');
 const profilesStoreKey = PageStorageKey<String>('profiles');
 
-const defaultPrimaryColor = 0xFF007AFF;
+const defaultPrimaryColor = 0xFF0A7EA4;
 
 const maxLogsLength = 5000;
 const maxRequestsLength = 2000;
@@ -183,10 +183,11 @@ const pausedMaxDnsQueriesLength = maxDnsQueriesLength * 2;
 
 const trafficSampleLength = 30;
 
-// iOS 27's system colors but the deeper blue of earlier iOS, in the order of the
-// macOS accent colors.
+// Ocean accent colors of the XiaoArk brand, followed by iOS 27's system colors.
 const defaultPrimaryColors = [
   defaultPrimaryColor,
+  0xFF30D5C8,
+  0xFF1B4F72,
   0xFFCB30E0,
   0xFFFF2D55,
   0xFFFF383C,
