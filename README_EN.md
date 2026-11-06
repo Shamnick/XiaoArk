@@ -173,6 +173,10 @@ TUN requires a system service. Authorize it once when prompted in Settings — i
 
 </details>
 
+## 🙏 Credits
+
+This project is a derivative work based on [FlClash](https://github.com/chen08209/FlClash) (GPL-3.0). Huge thanks to the original author and the [mihomo](https://github.com/MetaCubeX/mihomo) core community. All changes made by XiaoArk are publicly auditable in this repository.
+
 ---
 
 <div align="center">

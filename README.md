@@ -173,6 +173,10 @@ TUN 需要安装系统服务。在设置中按提示授权一次即可，之后�
 
 </details>
 
+## 🙏 致谢
+
+本项目基于 [FlClash](https://github.com/chen08209/FlClash)（GPL-3.0）二次开发，感谢原作者与 [mihomo](https://github.com/MetaCubeX/mihomo) 内核社区的贡献。XiaoArk 与上游的所有差异均在本仓库中公开审阅。
+
 ---
 
 <div align="center">
