@@ -168,6 +168,16 @@ class _Sidebar extends ConsumerWidget {
         for (final item in items)
           SidebarDestination(glyph: item.glyph, label: item.label.label),
       ],
+      header: Padding(
+        padding: const EdgeInsets.only(left: 4, bottom: 2),
+        child: Text(
+          appName,
+          maxLines: 1,
+          style: AppTextStyle.caption1.of(
+            context,
+          ).copyWith(color: context.colorScheme.onSurfaceVariant),
+        ),
+      ),
       selectedIndex: currentIndex,
       expanded: canExpand && sidebarExpanded,
       onSelected: onSelected,

@@ -51,6 +51,7 @@ class NavigationSidebar extends StatefulWidget {
     required this.onSelected,
     this.onToggle,
     this.windowControls = Size.zero,
+    this.header,
   });
 
   final List<SidebarDestination> destinations;
@@ -59,6 +60,9 @@ class NavigationSidebar extends StatefulWidget {
   final ValueChanged<int> onSelected;
   final VoidCallback? onToggle;
   final Size windowControls;
+
+  /// A brand line under the window controls, clipped as the pane narrows.
+  final Widget? header;
 
   @override
   State<NavigationSidebar> createState() => _NavigationSidebarState();
@@ -141,6 +145,7 @@ class _NavigationSidebarState extends State<NavigationSidebar>
                 _closeOverlay();
               },
               onToggle: _closeOverlay,
+              header: widget.header,
             ),
           ),
         );
@@ -158,6 +163,7 @@ class _NavigationSidebarState extends State<NavigationSidebar>
             selectedIndex: widget.selectedIndex,
             onSelected: widget.onSelected,
             onToggle: _handleToggle,
+            header: widget.header,
           ),
         ),
       ),
@@ -262,6 +268,7 @@ class _SidebarPane extends StatelessWidget {
     required this.selectedIndex,
     required this.onSelected,
     required this.onToggle,
+    this.header,
   });
 
   final double progress;
@@ -271,6 +278,7 @@ class _SidebarPane extends StatelessWidget {
   final int selectedIndex;
   final ValueChanged<int> onSelected;
   final VoidCallback onToggle;
+  final Widget? header;
 
   @override
   Widget build(BuildContext context) {
@@ -300,6 +308,17 @@ class _SidebarPane extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           SizedBox(height: windowControls.height + _verticalInset),
+          if (header case final header?)
+            Padding(
+              padding: EdgeInsets.symmetric(horizontal: sideInset),
+              child: ClipRect(
+                child: Align(
+                  alignment: AlignmentDirectional.centerStart,
+                  widthFactor: 1,
+                  child: header,
+                ),
+              ),
+            ),
           Align(
             alignment: AlignmentDirectional.centerStart,
             child: _SidebarButton(
