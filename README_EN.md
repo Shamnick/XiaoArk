@@ -12,11 +12,11 @@
 
 <br/>
 
-[![Release](https://img.shields.io/github/v/release/Shamnick/XiaoArk?style=flat-square&color=0A7EA4&label=release)](https://github.com/Shamnick/XiaoArk/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Shamnick/XiaoArk/total?style=flat-square&color=30D5C8&label=downloads)](https://github.com/Shamnick/XiaoArk/releases)
-[![Platform](https://img.shields.io/badge/platform-macOS%20·%20Windows%20·%20Linux%20·%20Android-1B4F72?style=flat-square)](https://github.com/Shamnick/XiaoArk/releases)
-[![License](https://img.shields.io/github/license/Shamnick/XiaoArk?style=flat-square&color=555)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Shamnick/XiaoArk?style=flat-square&color=FFC53D)](https://github.com/Shamnick/XiaoArk/stargazers)
+[![Release](https://img.shields.io/github/v/release/Shamnick/XiaoArk?style=flat-square&color=0A7EA4&label=Release)](https://github.com/Shamnick/XiaoArk/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Shamnick/XiaoArk/total?style=flat-square&color=30D5C8&label=Downloads)](https://github.com/Shamnick/XiaoArk/releases)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux%20%7C%20Android-1B4F72?style=flat-square)](https://github.com/Shamnick/XiaoArk/releases)
+[![License](https://img.shields.io/github/license/Shamnick/XiaoArk?style=flat-square&color=555&label=License)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Shamnick/XiaoArk?style=flat-square&color=FFC53D&label=Stars)](https://github.com/Shamnick/XiaoArk/stargazers)
 
 **[⬇️ Download](#️-download) · [🚀 Quick Start](#-quick-start) · [📸 Screenshots](#-screenshots) · [🔨 Build](#-build-from-source) · [🤝 Contributing](#-contributing) · [❓ FAQ](#-faq)**
 

@@ -12,11 +12,11 @@
 
 <br/>
 
-[![Release](https://img.shields.io/github/v/release/Shamnick/XiaoArk?style=flat-square&color=0A7EA4&label=版本)](https://github.com/Shamnick/XiaoArk/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/Shamnick/XiaoArk/total?style=flat-square&color=30D5C8&label=下载)](https://github.com/Shamnick/XiaoArk/releases)
-[![Platform](https://img.shields.io/badge/平台-macOS%20·%20Windows%20·%20Linux%20·%20Android-1B4F72?style=flat-square)](https://github.com/Shamnick/XiaoArk/releases)
-[![License](https://img.shields.io/github/license/Shamnick/XiaoArk?style=flat-square&color=555)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/Shamnick/XiaoArk?style=flat-square&color=FFC53D)](https://github.com/Shamnick/XiaoArk/stargazers)
+[![Release](https://img.shields.io/github/v/release/Shamnick/XiaoArk?style=flat-square&color=0A7EA4&label=Release)](https://github.com/Shamnick/XiaoArk/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/Shamnick/XiaoArk/total?style=flat-square&color=30D5C8&label=Downloads)](https://github.com/Shamnick/XiaoArk/releases)
+[![Platform](https://img.shields.io/badge/Platform-macOS%20%7C%20Windows%20%7C%20Linux%20%7C%20Android-1B4F72?style=flat-square)](https://github.com/Shamnick/XiaoArk/releases)
+[![License](https://img.shields.io/github/license/Shamnick/XiaoArk?style=flat-square&color=555&label=License)](LICENSE)
+[![Stars](https://img.shields.io/github/stars/Shamnick/XiaoArk?style=flat-square&color=FFC53D&label=Stars)](https://github.com/Shamnick/XiaoArk/stargazers)
 
 **[⬇️ 下载](#️-下载) · [🚀 快速上手](#-快速上手) · [📸 界面预览](#-界面预览) · [🔨 源码构建](#-从源码构建) · [🤝 参与贡献](#-参与贡献) · [❓ FAQ](#-常见问题)**
 
@@ -120,6 +120,7 @@ dart setup.dart macos --env stable   # 构建并打包（产物在 dist/）
 ## 🗺 路线图
 
 - [x] macOS Apple Silicon 原生版
+- [x] macOS Intel 版 + Release 校验和
 - [ ] 界面主题全面海洋化
 - [ ] 首次启动引导页
 - [ ] Windows / Linux / Android 云端构建
