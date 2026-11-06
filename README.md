@@ -62,6 +62,28 @@
 - 无广告、无埋点、无捆绑
 - 开源透明，每一行代码可审阅
 
+## 📸 界面预览
+
+<div align="center">
+
+<img src="assets/screenshots/dashboard.png" width="760" alt="XiaoArk 仪表盘"/>
+
+**仪表盘** · 实时流量、节点延迟、连接统计，一屏尽览
+
+<br/>
+
+<img src="assets/screenshots/tray_states.png" width="560" alt="托盘双状态"/>
+
+**菜单栏托盘** · 帆升起即已连接，帆落下即已断开，无需点开窗口
+
+<br/>
+
+<img src="assets/screenshots/dmg_install.png" width="560" alt="安装界面"/>
+
+**安装界面** · 海洋主题 DMG，从第一眼就是自己的样子
+
+</div>
+
 ## ⬇️ 下载
 
 前往 [**Releases**](https://github.com/Shamnick/XiaoArk/releases) 获取最新版本：
